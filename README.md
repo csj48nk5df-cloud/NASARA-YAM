@@ -4,7 +4,7 @@ A modern, mobile-friendly one-page yam ordering website.
 
 ## Pricing
 - Yam: GHS 25 per tuber
-- Delivery: GHS 10
+- Delivery: Free delivery 
 - Pickup: UMAT Tarkwa
 
 ## WhatsApp
