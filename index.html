@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nasara Yam Hub — fresh quality yam in UMAT Tarkwa with delivery and pickup available." />
+  <title>Nasara Yam Hub | Fresh Quality Yam</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#home">
+      <span class="brand-mark">NY</span>
+      <span>Nasara <b>Yam Hub</b></span>
+    </a>
+    <button class="menu" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#product">Our Yam</a>
+      <a href="#order">Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">FRESH • QUALITY • LOCAL</span>
+        <h1>Good food starts with <em>good yam.</em></h1>
+        <p>Fresh, quality yam delivered around UMAT Tarkwa — simple ordering, honest pricing, and convenience from farm to table.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#order">Order Yam <span>→</span></a>
+          <a class="btn ghost" href="https://wa.me/233595193594?text=Hello%20Nasara%20Yam%20Hub%2C%20I%27d%20like%20to%20order%20yam." target="_blank" rel="noopener">WhatsApp Us</a>
+        </div>
+        <div class="trust">
+          <span>✓ GHS 25 / tuber</span>
+          <span>✓ Delivery available</span>
+          <span>✓ Pickup available</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Fresh yam illustration">
+        <div class="sun"></div>
+        <div class="leaf leaf-a"></div>
+        <div class="leaf leaf-b"></div>
+        <div class="yam yam-a"><i></i></div>
+        <div class="yam yam-b"><i></i></div>
+        <div class="yam yam-c"><i></i></div>
+        <div class="badge">FRESH<br><small>YAM</small></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-label">01 — ABOUT US</div>
+      <div>
+        <h2>Quality you can taste.<br><em>Convenience you can trust.</em></h2>
+        <p>Nasara Yam Hub brings you fresh, carefully selected yam for your home, restaurant, event, or resale. We keep the process straightforward: quality yam, clear pricing, and easy ordering.</p>
+        <div class="stats">
+          <div><strong>GHS 25</strong><span>Per tuber</span></div>
+          <div><strong>GHS 10</strong><span>Delivery fee</span></div>
+          <div><strong>UMAT</strong><span>Tarkwa pickup</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="product" class="section product">
+      <div class="section-label">02 — OUR PRODUCT</div>
+      <div class="product-card">
+        <div class="product-visual">
+          <span class="organic">FRESH PICK</span>
+          <div class="big-yam"><i></i></div>
+        </div>
+        <div class="product-info">
+          <span class="eyebrow">NASARA YAM HUB</span>
+          <h2>Fresh Yam</h2>
+          <p>Quality yam selected for everyday cooking. Order exactly what you need, whether it's a few tubers or enough for the whole household.</p>
+          <div class="price"><span>GHS</span>25 <small>/ tuber</small></div>
+          <ul>
+            <li>Fresh and quality selected</li>
+            <li>Delivery available</li>
+            <li>Pickup available at UMAT Tarkwa</li>
+          </ul>
+          <a class="btn primary" href="#order">Order Now <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="why section">
+      <div class="section-label">03 — WHY NASARA</div>
+      <h2>Simple. Fresh. <em>Reliable.</em></h2>
+      <div class="features">
+        <article><div class="icon">🌱</div><h3>Quality First</h3><p>We focus on fresh, good-quality yam for your meals and business.</p></article>
+        <article><div class="icon">🚚</div><h3>Easy Delivery</h3><p>Get your order delivered for a simple GHS 10 delivery fee.</p></article>
+        <article><div class="icon">🤝</div><h3>Easy Pickup</h3><p>Prefer to collect? Pickup is available at UMAT Tarkwa.</p></article>
+      </div>
+    </section>
+
+    <section id="order" class="section order-section">
+      <div class="section-label">04 — ORDER NOW</div>
+      <div class="order-wrap">
+        <div>
+          <span class="eyebrow">READY WHEN YOU ARE</span>
+          <h2>Get your yam<br><em>without the stress.</em></h2>
+          <p>Fill in your details and we'll prepare a WhatsApp order for you.</p>
+          <div class="order-note"><b>Delivery:</b> GHS 10 &nbsp;•&nbsp; <b>Pickup:</b> Free at UMAT Tarkwa</div>
+        </div>
+        <form id="orderForm">
+          <label>Your name<input id="name" required placeholder="e.g. Abdul" /></label>
+          <label>Phone number<input id="phone" required value="0595193594" /></label>
+          <label>Quantity (tubers)<input id="qty" type="number" min="1" value="1" required /></label>
+          <label>Fulfilment
+            <select id="method">
+              <option value="Delivery">Delivery — GHS 10</option>
+              <option value="Pickup">Pickup — UMAT Tarkwa</option>
+            </select>
+          </label>
+          <label>Delivery location / note<textarea id="location" rows="3" placeholder="Where should we deliver? (leave blank if picking up)"></textarea></label>
+          <div class="total"><span>Total</span><strong id="total">GHS 35</strong></div>
+          <button class="btn primary full" type="submit">Order via WhatsApp <span>→</span></button>
+          <p class="fine">You'll be redirected to WhatsApp with your order details ready to send.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div>
+        <span class="eyebrow">CONTACT</span>
+        <h2>Let's get your yam sorted.</h2>
+        <p>Questions, bulk orders, or just want to confirm availability? Reach us directly.</p>
+      </div>
+      <a class="contact-number" href="https://wa.me/233595193594" target="_blank" rel="noopener">059 519 3594 ↗</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand"><span class="brand-mark">NY</span><span>Nasara <b>Yam Hub</b></span></div>
+    <p>Fresh quality yam • UMAT Tarkwa</p>
+    <small>© <span id="year"></span> Nasara Yam Hub. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
